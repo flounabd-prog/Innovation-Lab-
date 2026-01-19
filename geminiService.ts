@@ -1,13 +1,13 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { CreativeSolution } from "../types";
+import { CreativeSolution } from "./types";
 
 export async function generateCreativeSolution(problemDescription: string): Promise<CreativeSolution> {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-pro-preview", // الترقية لنموذج Pro لضمان أعلى جودة في التفكير المنطقي والتحليلي
+      model: "gemini-3-flash-preview", // الترقية لنموذج Pro لضمان أعلى جودة في التفكير المنطقي والتحليلي
       contents: `بصفتك "كبير استراتيجيي الابتكار ومصمم أنظمة التفكير"، مهمتك هي تحليل التحدي التالي: "${problemDescription}"
 
 ### بروتوكول الاختيار الجراحي المطور (Advanced Surgical Selection Protocol 4.0):
