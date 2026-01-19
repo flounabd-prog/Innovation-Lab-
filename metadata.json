@@ -1,0 +1,7 @@
+{
+  "name": "Copy of مختبر الإبداع - Creative Lab",
+  "description": "منصة ذكية لتحويل التحديات والمشكلات إلى حلول مبتكرة باستخدام تقنيات التفكير الإبداعي والذكاء الاصطناعي.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
