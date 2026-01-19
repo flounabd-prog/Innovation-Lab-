@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import { Layout } from './components/Layout';
-import { ProblemForm } from './components/ProblemForm';
-import { SolutionDisplay } from './components/SolutionDisplay';
-import { LoadingOverlay } from './components/LoadingOverlay';
-import { generateCreativeSolution } from './services/geminiService';
+import { Layout } from './Layout';
+import { ProblemForm } from './ProblemForm';
+import { SolutionDisplay } from './SolutionDisplay';
+import { LoadingOverlay } from './LoadingOverlay';
+import { generateCreativeSolution } from './geminiService';
 import { CreativeSolution, ProblemHistory } from './types';
 
 const App: React.FC = () => {
